@@ -23,7 +23,7 @@ int main(int argc, char **argv) {
     long imcnt = 0, pgcnt = 0;
     long elapsed;
 
-    printf( "create image binary pack from %s, this will take some time...\n", argv[1] );
+    printf( "create image binary pack from %s, this will take some time....1111\n", argv[1] );
 
     while( fscanf( fplst,"%u%f %[^\n]\n", &index, &label, fname ) == 3 ) {
         std::string path = fname;
